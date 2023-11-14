@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "data-projects",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "data-projects",
+    "section": "Install",
+    "text": "Install\npip install data_projects"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "data-projects",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  },
+  {
+    "objectID": "energyforecast.html",
+    "href": "energyforecast.html",
+    "title": "energyforecast",
+    "section": "",
+    "text": "source\n\naemo_price_demand\n\n aemo_price_demand (state:str, year:int, month:int)\n\n\naemo_price_demand(\"vic\", 2023, 1)\n\n\n\n\n\n\n\n\nREGION\nSETTLEMENTDATE\nTOTALDEMAND\nRRP\nPERIODTYPE\n\n\n\n\n0\nVIC1\n2023/01/01 00:05:00\n4676.57\n129.51\nTRADE\n\n\n1\nVIC1\n2023/01/01 00:10:00\n4722.43\n124.72\nTRADE\n\n\n2\nVIC1\n2023/01/01 00:15:00\n4672.63\n111.64\nTRADE\n\n\n3\nVIC1\n2023/01/01 00:20:00\n4616.49\n110.75\nTRADE\n\n\n4\nVIC1\n2023/01/01 00:25:00\n4604.27\n110.91\nTRADE\n\n\n...\n...\n...\n...\n...\n...\n\n\n8923\nVIC1\n2023/01/31 23:40:00\n4664.75\n115.28\nTRADE\n\n\n8924\nVIC1\n2023/01/31 23:45:00\n4670.26\n111.10\nTRADE\n\n\n8925\nVIC1\n2023/01/31 23:50:00\n4575.90\n110.00\nTRADE\n\n\n8926\nVIC1\n2023/01/31 23:55:00\n4565.74\n108.91\nTRADE\n\n\n8927\nVIC1\n2023/02/01 00:00:00\n4575.72\n116.09\nTRADE\n\n\n\n\n8928 rows × 5 columns"
+  }
+]

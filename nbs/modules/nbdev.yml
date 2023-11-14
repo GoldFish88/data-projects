@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "data-projects"
+  site-url: "https://GoldFish88.github.io/data-projects"
+  description: ""
+  repo-branch: main
+  repo-url: "https://github.com/GoldFish88/data-projects"

@@ -4,3 +4,4 @@
 /_proc/
 /_docs/
 **.egg-info
+**/__pycache__/

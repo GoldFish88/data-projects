@@ -3,6 +3,17 @@
 # %% auto 0
 __all__ = ['aemo_price_demand']
 
+# %% ../nbs/modules/00_energyforecast.ipynb 2
+from nbdev.showdoc import *
+import polars as pl
+import matplotlib.pyplot as plt
+import pandas as pd
+
+import requests
+import csv
+from io import StringIO
+from datetime import datetime
+
 # %% ../nbs/modules/00_energyforecast.ipynb 3
 def aemo_price_demand(state: str, year: int, month: int):
     assert isinstance(month, int) and isinstance(year, int)
@@ -18,10 +29,10 @@ def aemo_price_demand(state: str, year: int, month: int):
 
     state = state.lower()
 
-    state_code_map = {"vic": "VIC1"}
+    # TODO: closest match / fuzzy match
+    state_code_map = {"vic": "VIC1", "nsw": "NSW1"}
 
     state_code = state_code_map[state]
-
     try:
         url = f"https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_{year}{month_str}_{state_code}.csv"
         headers = {

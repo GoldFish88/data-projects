@@ -3,3 +3,4 @@
 /data/
 /_proc/
 /_docs/
+**.egg-info
